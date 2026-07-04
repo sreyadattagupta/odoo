@@ -1,0 +1,90 @@
+- generic [ref=e167]:
+  - complementary [ref=e168]:
+    - generic [ref=e169]:
+      - generic [ref=e170]: Aligned HRMS
+      - generic [ref=e171]: Every workday, perfectly aligned
+    - navigation [ref=e172]:
+      - link "🏠 Dashboard" [ref=e173] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e174]: 🏠
+        - text: Dashboard
+      - link "👤 My Profile" [ref=e175] [cursor=pointer]:
+        - /url: /profile
+        - generic [ref=e176]: 👤
+        - text: My Profile
+      - link "📅 Attendance" [ref=e177] [cursor=pointer]:
+        - /url: /attendance
+        - generic [ref=e178]: 📅
+        - text: Attendance
+      - link "🌴 Leave" [ref=e179] [cursor=pointer]:
+        - /url: /leave
+        - generic [ref=e180]: 🌴
+        - text: Leave
+      - link "💰 Payroll" [ref=e181] [cursor=pointer]:
+        - /url: /payroll
+        - generic [ref=e182]: 💰
+        - text: Payroll
+    - generic [ref=e183]:
+      - generic [ref=e184]: Monmon Ghosh
+      - generic [ref=e185]: employee · EMP003
+      - button "🚪 Logout" [ref=e186] [cursor=pointer]
+  - main [ref=e187]:
+    - generic [ref=e188]:
+      - heading "Welcome, Monmon 👋" [level=1] [ref=e189]
+      - paragraph [ref=e190]: Here's your workday at a glance.
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - generic [ref=e193]: "12"
+          - generic [ref=e194]: Present days (30d)
+        - generic [ref=e195]:
+          - generic [ref=e196]: "1"
+          - generic [ref=e197]: Pending leaves
+        - generic [ref=e198]:
+          - generic [ref=e199]: "3"
+          - generic [ref=e200]: Total requests
+        - generic [ref=e201]:
+          - generic [ref=e202]: EMP003
+          - generic [ref=e203]: Employee ID
+      - generic [ref=e204]:
+        - link "👤 My Profile View & edit your details" [ref=e205] [cursor=pointer]:
+          - /url: /profile
+          - generic [ref=e206]:
+            - generic [ref=e207]: 👤
+            - generic [ref=e208]: My Profile
+            - generic [ref=e209]: View & edit your details
+        - link "📅 Attendance Check in / out & history" [ref=e210] [cursor=pointer]:
+          - /url: /attendance
+          - generic [ref=e211]:
+            - generic [ref=e212]: 📅
+            - generic [ref=e213]: Attendance
+            - generic [ref=e214]: Check in / out & history
+        - link "🌴 Leave Apply & track requests" [ref=e215] [cursor=pointer]:
+          - /url: /leave
+          - generic [ref=e216]:
+            - generic [ref=e217]: 🌴
+            - generic [ref=e218]: Leave
+            - generic [ref=e219]: Apply & track requests
+      - generic [ref=e220]:
+        - heading "Recent leave activity" [level=3] [ref=e221]
+        - generic [ref=e222]:
+          - generic [ref=e223]: sick · 2026-06-14 → 2026-06-14
+          - generic [ref=e224]: approved
+        - generic [ref=e225]:
+          - generic [ref=e226]: sick · 2026-06-24 → 2026-06-24
+          - generic [ref=e227]: approved
+        - generic [ref=e228]:
+          - generic [ref=e229]: sick · 2026-07-07 → 2026-07-09
+          - generic [ref=e230]: pending
+  - generic [ref=e232]:
+    - generic [ref=e233]:
+      - generic [ref=e234]: ✨ Aligned Copilot
+      - button "✕" [ref=e235] [cursor=pointer]
+    - generic [ref=e236]:
+      - generic [ref=e238]: "Hi! I'm your Aligned Copilot. Try: \"apply sick leave from 2026-07-10 to 2026-07-11\" or \"how many leaves do I have left?\""
+      - generic [ref=e243]: apply sick leave from 2026-07-20 to 2026-07-22
+      - generic [ref=e245]: Submitted a sick leave from 2026-07-20 to 2026-07-22 — status Pending.
+      - generic [ref=e247]: how many leaves do I have left?
+      - generic [ref=e249]: You have 18 paid and 10 sick leaves remaining this year.
+    - generic [ref=e239]:
+      - textbox "Ask or apply for leave…" [active] [ref=e240]
+      - button "➤" [ref=e241] [cursor=pointer]

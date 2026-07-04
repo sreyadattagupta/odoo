@@ -1,0 +1,108 @@
+- generic [ref=e16]:
+  - complementary [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: Aligned HRMS
+      - generic [ref=e20]: Every workday, perfectly aligned
+    - navigation [ref=e21]:
+      - link "🏠 Dashboard" [ref=e22] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e23]: 🏠
+        - text: Dashboard
+      - link "👥 Employees" [ref=e24] [cursor=pointer]:
+        - /url: /employees
+        - generic [ref=e25]: 👥
+        - text: Employees
+      - link "✅ Leave Approvals" [active] [ref=e26] [cursor=pointer]:
+        - /url: /approvals
+        - generic [ref=e27]: ✅
+        - text: Leave Approvals
+      - link "💰 Payroll" [ref=e28] [cursor=pointer]:
+        - /url: /hr-payroll
+        - generic [ref=e29]: 💰
+        - text: Payroll
+      - link "👤 My Profile" [ref=e30] [cursor=pointer]:
+        - /url: /profile
+        - generic [ref=e31]: 👤
+        - text: My Profile
+    - generic [ref=e32]:
+      - generic [ref=e33]: Sreya Datta Gupta
+      - generic [ref=e34]: hr · HR001
+      - button "🚪 Logout" [ref=e35] [cursor=pointer]
+  - main [ref=e36]:
+    - generic [ref=e73]:
+      - heading "Leave Approvals" [level=1] [ref=e74]
+      - paragraph [ref=e75]: Each request is scored for attrition/burnout risk automatically.
+      - heading "Pending (4)" [level=3] [ref=e76]
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - text: Rimjhim Barnwal
+                - generic [ref=e82]: · EMP001
+              - generic [ref=e83]: paid leave · 2026-07-09 → 2026-07-10
+              - generic [ref=e84]: “Family function”
+            - generic [ref=e85]:
+              - generic [ref=e86]: 8 · low
+              - generic [ref=e88]: "Suggested: ✔ Approve"
+          - generic [ref=e89]: "AI insight: 2 recent absence(s)"
+          - generic [ref=e90]:
+            - textbox "Comment (optional)" [ref=e91]
+            - button "Approve" [ref=e92] [cursor=pointer]
+            - button "Reject" [ref=e93] [cursor=pointer]
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - text: Pubali Digar
+                - generic [ref=e98]: · EMP002
+              - generic [ref=e99]: sick leave · 2026-07-06 → 2026-07-06
+              - generic [ref=e100]: “Fever”
+            - generic [ref=e101]:
+              - generic [ref=e102]: 23 · low
+              - generic [ref=e104]: "Suggested: ✔ Approve"
+          - generic [ref=e105]: "AI insight: Leave starts on a Monday/Friday (long-weekend pattern) · 2 recent absence(s)"
+          - generic [ref=e106]:
+            - textbox "Comment (optional)" [ref=e107]
+            - button "Approve" [ref=e108] [cursor=pointer]
+            - button "Reject" [ref=e109] [cursor=pointer]
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - text: Monmon Ghosh
+                - generic [ref=e114]: · EMP003
+              - generic [ref=e115]: sick leave · 2026-07-07 → 2026-07-09
+              - generic [ref=e116]: “Recurring”
+            - generic [ref=e117]:
+              - generic [ref=e118]: 85 · high
+              - generic [ref=e120]: "Suggested: ⚠ Review"
+          - generic [ref=e121]: "AI insight: 3 leave requests in the last 30 days · 3 sick leaves this month · 7 unplanned absences recently · Attendance rate below 60% recently"
+          - generic [ref=e122]:
+            - textbox "Comment (optional)" [ref=e123]
+            - button "Approve" [ref=e124] [cursor=pointer]
+            - button "Reject" [ref=e125] [cursor=pointer]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - text: Arjun Mehta
+                - generic [ref=e130]: · EMP004
+              - generic [ref=e131]: unpaid leave · 2026-07-11 → 2026-07-14
+              - generic [ref=e132]: “Personal travel”
+            - generic [ref=e133]:
+              - generic [ref=e134]: 8 · low
+              - generic [ref=e136]: "Suggested: ✔ Approve"
+          - generic [ref=e137]: "AI insight: 2 recent absence(s)"
+          - generic [ref=e138]:
+            - textbox "Comment (optional)" [ref=e139]
+            - button "Approve" [ref=e140] [cursor=pointer]
+            - button "Reject" [ref=e141] [cursor=pointer]
+      - heading "Reviewed" [level=3] [ref=e142]
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e145]: Monmon Ghosh · sick · 2026-06-14→2026-06-14
+          - generic [ref=e146]: approved
+        - generic [ref=e147]:
+          - generic [ref=e148]: Monmon Ghosh · sick · 2026-06-24→2026-06-24
+          - generic [ref=e149]: approved

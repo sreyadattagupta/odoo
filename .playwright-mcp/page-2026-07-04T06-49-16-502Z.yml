@@ -1,0 +1,16 @@
+- generic [ref=e155]:
+  - heading "Aligned HRMS" [level=1] [ref=e156]
+  - paragraph [ref=e157]: Every workday, perfectly aligned.
+  - generic [ref=e158]:
+    - generic [ref=e159]:
+      - text: Email
+      - textbox "Email" [ref=e160]: hr@aligned.com
+    - generic [ref=e161]:
+      - text: Password
+      - textbox "Password" [ref=e162]: password1
+    - button "Sign In" [ref=e163] [cursor=pointer]
+  - paragraph [ref=e164]:
+    - text: No account?
+    - link "Sign up" [ref=e165] [cursor=pointer]:
+      - /url: /signup
+  - generic [ref=e166]: "Demo: hr@aligned.com / password1 (HR) · monmon@aligned.com / password1 (Employee)"

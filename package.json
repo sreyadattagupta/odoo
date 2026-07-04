@@ -1,0 +1,16 @@
+{
+  "name": "hrms-aligned",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HRMS - Every workday, perfectly aligned. Odoo x Adamas Hackathon '26",
+  "scripts": {
+    "dev": "concurrently -n server,client -c cyan,magenta \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
