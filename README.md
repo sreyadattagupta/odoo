@@ -182,13 +182,13 @@ npm run dev
 
 ## 📸 Walkthrough
 
-<details>
+<details open>
 <summary><b>🔐 Click to expand — Login & Dashboards</b></summary>
 <br/>
 
 | Login | HR Dashboard | Employee Dashboard |
 |:---:|:---:|:---:|
-| ![](01-login.png) | ![](02-hr-dashboard.png) | ![](05-emp-dashboard.png) |
+| ![Login](photos_website/01-login.png) | ![HR Dashboard](photos_website/02-hr-dashboard.png) | ![Employee Dashboard](photos_website/05-emp-dashboard.png) |
 
 </details>
 
@@ -196,9 +196,9 @@ npm run dev
 <summary><b>🧠 Click to expand — AI Copilot & Smart Approvals</b></summary>
 <br/>
 
-| Copilot (plain-English actions) | HR Smart Approvals (risk scores) |
-|:---:|:---:|
-| ![](06-copilot.png) | ![](03-approvals.png) |
+| Copilot (plain-English actions) | HR Smart Approvals (risk scores) | Request Approved |
+|:---:|:---:|:---:|
+| ![Copilot](photos_website/06-copilot.png) | ![Approvals](photos_website/03-approvals.png) | ![Approved](photos_website/04-approved.png) |
 
 </details>
 
@@ -208,7 +208,27 @@ npm run dev
 
 | Attendance (check-in + markers) | Leave (range-select apply) |
 |:---:|:---:|
-| ![](08-attendance.png) | ![](07-leave-calendar.png) |
+| ![Attendance](photos_website/08-attendance.png) | ![Leave Calendar](photos_website/07-leave-calendar.png) |
+
+</details>
+
+<details>
+<summary><b>👤 Click to expand — Profiles & Payroll</b></summary>
+<br/>
+
+| Employee Profile | Employee Payroll (read-only) |
+|:---:|:---:|
+| ![Employee Profile](photos_website/09-profile-employee.png) | ![Employee Payroll](photos_website/10-payrolldemo-employee.png) |
+
+</details>
+
+<details>
+<summary><b>🧑‍💼 Click to expand — HR Admin Views</b></summary>
+<br/>
+
+| Employee Directory + Status | Payroll Management | HR Profile Editor |
+|:---:|:---:|:---:|
+| ![Employee Status](photos_website/11-hr-emmployees-status.png) | ![Payroll Management](photos_website/12-hr-pyrollmanagemebt.png) | ![HR Profile](photos_website/13-hr-profile.png) |
 
 </details>
 
@@ -282,6 +302,10 @@ odoo/
 Built with 💜 for the **Odoo x Adamas University Hackathon '26**
 
 **Sreya Datta Gupta** · **Rimjhim Barnwal** · **Pubali Digar** · **Monmon Ghosh**
+
+<br/>
+
+<img width="80%" src="photos_website/14-last.png" alt="Aligned HRMS" />
 
 <br/>
 
