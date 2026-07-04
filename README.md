@@ -88,6 +88,16 @@
 | 🧑 **Employee** | Natural-language assistant. Resolves relative dates, files leave requests, checks balances, summarizes attendance — all through tool-calling. |
 | 🧑‍💼 **HR** | Each pending request is enriched with a **risk score**, a human-readable insight, and an Approve/Review recommendation. |
 
+**Supported intents** (parsed in `server/src/nlp.js`, executed in `routes/copilot.js`):
+
+| Intent | Example prompt | Action |
+|--------|----------------|--------|
+| `apply_leave` | *"Apply sick leave next Mon–Wed"* | drafts a leave request → confirm card → submits |
+| `get_leave_balance` | *"How many paid leaves do I have left?"* | reads leave history + policy → answers |
+| `get_attendance_summary` | *"Was I late this week?"* | summarizes attendance rows in plain English |
+
+Date parsing covers relative dates (*"next Monday"*), explicit ISO dates, ranges, and *"for N days"*.
+
 > 🛡️ **Privacy-first & self-contained:** the Copilot runs entirely on your own server with a built-in natural-language engine — **no external AI service, no API keys, no data leaves your machine.** Every action is bound to the caller's user id, so it cannot read or touch another employee's data.
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" />
@@ -126,6 +136,8 @@ flowchart LR
 
 ## 🚀 Quick Start
 
+> **Prerequisites:** Node `>=22` (repo pins `22.20.0` via `.nvmrc` — run `nvm use`) · npm `>=10`. No database setup needed — SQLite is file-based and auto-created on seed.
+
 ```bash
 # 1️⃣  install everything (root + server + client)
 npm run install:all
@@ -150,6 +162,19 @@ npm run dev
 | 🧑‍💼 **HR** | `hr@aligned.com` | approvals, payroll, full directory |
 | 🧑 **Employee** | `rimjhim@aligned.com` | standard profile |
 | ⚠️ **Employee** | `monmon@aligned.com` | seeded **high attrition-risk** (best for the HR demo) |
+
+### 📜 npm Scripts
+
+| Command | Does |
+|---------|------|
+| `npm run dev` | run server + client together (concurrently) |
+| `npm run install:all` | install root + server + client deps |
+| `npm run seed` | seed demo data |
+| `npm run setup` | `install:all` then `seed` — one-shot bootstrap |
+| `npm run build` | production build of the client |
+| `npm run preview` | preview the built client |
+| `npm start` | run the server alone (production) |
+| `npm run lint` | lint the client |
 
 <img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" />
 
@@ -233,7 +258,9 @@ odoo/
 ├── server/                 ⚙️  Express API + SQLite
 │   └── src/
 │       ├── routes/         🔌  auth · profiles · attendance · leave · payroll · copilot
+│       ├── index.js        🚪  Express app entry + route mounting
 │       ├── auth.js         🔐  JWT, bcrypt, role middleware
+│       ├── nlp.js          💬  natural-language intent + date parser
 │       ├── risk.js         🧠  attrition-risk scoring engine
 │       ├── db.js           🗄️  schema + connection
 │       └── seed.js         🌱  demo data
